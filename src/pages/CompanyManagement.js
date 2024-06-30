@@ -10,7 +10,7 @@ const CompanyManagement = () => {
 
   const handleAddCompany = async () => {
     try {
-      const response = await axios.post('https://your-backend-url.vercel.app/api/company/add', {
+      const response = await axios.post('https://backend-manoj-mallas-projects.vercel.app/api/company/add', {
         name,
         reviewLink,
         username,
