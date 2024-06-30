@@ -1,7 +1,9 @@
-
 {
   "version": 2,
   "name": "review-copier-frontend",
+  "env": {
+    "NODE_OPTIONS": "--openssl-legacy-provider"
+  },
   "builds": [
     {
       "src": "package.json",
@@ -12,7 +14,7 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "https://your-backend-url.vercel.app/api/$1"
+      "dest": "https://backend-manoj-mallas-projects.vercel.app/api/$1"
     },
     {
       "src": "/(.*)",
